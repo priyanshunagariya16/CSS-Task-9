@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Div task</title>
+    <style>
+        .outer {
+            border:3px solid black;
+            width:20%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+        .inner {
+            border:1px solid yellow;
+            background-color: yellow;
+            margin:40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            This text has a margin of 40 pixels on all four sides. It is nested within a 'div' with a border to make it easier to see the effect of the margin.
+        </div>
+    </div>
+</body>
+</html>
